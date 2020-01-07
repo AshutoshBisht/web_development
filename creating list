@@ -1,9 +1,9 @@
 <html>
 
-<head>
-<title>list and table</title>
-</head>
-
+  <head>
+  <title>list and table</title>
+  </head>
+  
 <body>
 <h1>In this page the two types of list are displayed.<hr/></h1>
 <img src="D:\html\photos\IMG_20190608_091016.jpg" alt="No Image" width="500px" height="400" border="2px"/>
@@ -13,6 +13,7 @@ list 1
 <li>C++</li>
 <li>Java</li>
 <li>Python</li>
+</ul>
 <br/>
 <ul type="square">
 list 2
@@ -20,6 +21,7 @@ list 2
 <li>C++</li>
 <li>Java</li>
 <li>Python</li>
+</ul>
 <br/>
 <ol type="1">
 list 3
@@ -30,13 +32,13 @@ list 3
 <li>MySQL</li>
 <br/>
 <ol type="a">
-list 4
 <li>HTML</li>
 <li>CSS</li>
 <li>JavaScript</li>
 <li>PHP</li>
 <li>MySQL</li>
-
-
+</ol>
+</ol>
 </body>
+
 </html>
