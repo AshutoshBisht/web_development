@@ -1,0 +1,9 @@
+<html>
+<head>
+<title>html beginning</title>
+</head>
+<body>
+<h1>Welcome<hr/></h1>
+<p>This is the first web page that I am creating. <br/> In this web page I have only used the title tag, heading tag, and some formatting tags.</p>
+</body>
+</html>
