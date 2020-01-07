@@ -1,0 +1,13 @@
+<html>
+<head>
+<title>image</title>
+<h1>Welcome<hr/></h1>
+</head>
+<body>
+<p>This web page contains an image after applying different attributes.</p>
+<img src="D:\html\photos\IMG_20190608_091016.jpg" alt="No Image" width="500px" height="400" border="2px" />
+<p>This image is 500pixels X 400pixels and ther border is 2pixels. The image is aligned by default.</p>
+<img src="D:\html\photos\IMG_20190608_091016.jpg" alt="No Image" width="800px" height="600" border="5px" align="right"/>
+<p>This image is 800pixels X 600pixels and ther border is 5pixels and it is right aligned</p>
+</body>
+</html>
