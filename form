@@ -1,0 +1,35 @@
+<html>
+<head>
+<title>first form</title>
+</head>
+<body>
+<form action="form.php" method="post">
+Name    <input type="text" name="username" />
+<br/>
+<br/>
+Password   <input type="password" name="password"/>
+<br/><br/>
+Male  <input type="radio" name="gender" />
+Female  <input type="radio" name="gender" />
+<br/>
+<h3>Language</h3>
+<input type="checkbox" name="lang"/>PHP
+<br/>
+<input type="checkbox" name="lang" />C
+<br/> 
+<input type="checkbox" name="lang"/>java
+<br/>
+<td>CITY</td>
+<td><select>
+<option>Bhopal</option>
+<option>Delhi</option>
+<option>Mumbai</option>
+<option>Dehradun</option>
+</select></td>
+<br/><br/>
+<input type="submit" value="SUBMIT"/>
+<input type="reset" value="RESET"/>
+
+</form>
+</body>
+</html>
