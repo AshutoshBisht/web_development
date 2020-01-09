@@ -70,5 +70,18 @@
 <td colspan="2" align="middle">4</td>
 </tr>
 </table>
+<br/>
+<a href="image.html">image</a>
+<br/>
+<a href="table.html">table</a>
+<br/>
+<br/><br/>
+<abbr title="World Health Organization">WHO</abbr>
+<br/>
+<abbr title="United Nations">UN</abbr>
+<br/>
+<abbr title="North Atlantic Treaty Organization">NATO</abbr>
+<br/>
+<abbr title="Global Organization Of Oriented Group Language Of Eatrh">GOOGLE</abbr>
 </body>
 </html>
