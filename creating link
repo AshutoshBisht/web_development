@@ -1,0 +1,14 @@
+<html>
+<head>
+<title>creating link</title>
+</head>
+<style></>
+<body>
+<h1>Welcome<hr/></h1>
+<p>This is the simple web page in which there is a link <br/>to one the web pages created by me.</p>
+
+<a href="image.html">Click here</a>
+</body>
+</html>
+
+
