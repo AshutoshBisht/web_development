@@ -1,0 +1,74 @@
+<html>
+<head>
+<title>link</title>
+<h1>Welcome<hr/></h1>
+</head>
+<body>
+<h2>Table</h2>
+<table>
+<tr>
+<th>S.No.</th>
+<th>Name</th>
+<th>Marks</th>
+</tr>
+<tr>
+<td>1</td>
+<td>Rohan</td>
+<td>95</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Abhijeet</td>
+<td>95</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Mark</td>
+<td>95</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Mike</td>
+<td>95</td>
+</tr>
+</table>
+<br/>
+<p>This is another table.</p>
+<table border="3px" cellspacing="0px" width="400px" height="200px" cellpadding="4px"/>
+<tr bgcolor="orange">
+<th>S.No.</th>
+<th>Name</th>
+<th>Marks</th>
+<th>section</th>
+</tr >
+<tr bgcolor="yellow">
+<td>1</td>
+<td>Rohan</td>
+<td>95</td>
+<td>D</td>
+</tr>
+<tr bgcolor="yellow">
+<td>2</td>
+<td>Abhijeet</td>
+<td>95</td>
+<td>A</td>
+</tr>
+<tr bgcolor="yellow">
+<td>3</td>
+<td>Mark</td>
+<td>95</td>
+<td>C</td>
+</tr >
+<tr bgcolor="yellow">
+<td>4</td>
+<td>Mike</td>
+<td>95</td>
+<td>B</td>
+</tr>
+<tr bgcolor="lightblue">
+<td colspan="2">Total students above 90%</td>
+<td colspan="2" align="middle">4</td>
+</tr>
+</table>
+</body>
+</html>
