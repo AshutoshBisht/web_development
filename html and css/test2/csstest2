@@ -1,0 +1,25 @@
+#p2
+{
+color:lightpink;
+border-style:dotted;
+border-width:5px;
+border-color:orange;
+border-radius:6px;
+}
+#s1
+{
+text-shadow:6px 6px 2px orange;
+font-weight:bold;
+font-style:italic;
+}
+#i1
+{
+	border-style:double;
+	background-color:black;
+	
+}
+h3
+{
+	color:brown;
+	font-style:italic;
+}
