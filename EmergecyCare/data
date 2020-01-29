@@ -1,0 +1,19 @@
+<?php
+$id=$_POST['Registration_id'];
+$pass=$_POST['Password'];
+$hospital=$_POST['name'];
+$bed=$_POST['beds'];
+$doctor=$_POST['doctors'];
+$con=mysqli_connect('localhost','root');
+mysqli_select_db($con,'emergency');
+$q="INSERT INTO hospital (id,Hospital Name,Password,Number of vacant beds,Number of doctors) VALUES($id,$pass,'$hospital',$bed,$doctor)";
+mysqli_query($con,$q);
+mysqli_close($con);
+?>
+<html>
+<head>
+</head>
+<body>
+<h2>The data has been saved to the database</h2>
+</body>
+</html>
