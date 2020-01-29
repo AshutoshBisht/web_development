@@ -1,0 +1,92 @@
+<html>
+<head>
+<title>EmergencyCare</title>
+<style type="text/css">
+#h1{
+	color:Red;
+	text-shadow: 5px 5px 2px pink;
+	text-align:center;
+}
+#d1{
+	text-align:center;
+}
+#p1{
+	text-align:center;
+}
+#d2{
+	margin-left:auto;
+}
+</style>
+</head>
+
+<body>
+<img src="images.jpg" alt="image not found" border="2px" align="middle"/>
+<img src="images (1).jpg" alt="image not found" border="1px" align="right"/>
+<h1 id="h1">Welcome</h1>
+<div id="d2">
+<p id="p1">Update the as soon as any changes occur</p>
+<div id="d1">
+<table id="t1">
+<form action="insert.php" method="post">
+<tr>
+<td>Registration_id:</td>;
+<td><input type="number" name="Registration_id" required/></td>
+<td>
+<tr>
+<td>Password: </td>
+<td><input type="password" name="Password" required/></td>
+</tr>
+<tr>
+<td>Hospital_Name: </td>
+<td><input type="text" name="name" required/></td>
+</tr>
+<tr>
+<td>Number_of_vacant_beds:     </td>
+<td><input type="number" name="beds" required/></td>
+</tr>
+<tr>
+<td>Number_of_doctors</td>
+<td><input type="number" name="doctors" required/></td>
+</tr>
+<tr>
+<td>Blood_group:</td>
+<td width="50px"><input type="checkbox" name="a"/>A</td>
+<td width="50px"><input type="checkbox" name="apos"/>+ve</td>
+<td>Amount in litres:<input type="numbers" name="amt1"></td>
+<td width="50px"><input type="checkbox" name="aneg"/>-ve</td>
+<td>Amount in litres:<input type="numbers" name="amt2"></td>
+</tr>
+<tr>
+<td>Blood Group:</td>
+<td width="50px"><input type="checkbox" name="b"/>B</td>
+<td width="50px"><input type="checkbox" name="bpos"/>+ve</td>
+<td>Amount in litres:<input type="numbers" name="amt3"></td>
+<td width="50px"><input type="checkbox" name="bneg"/>-ve</td>
+<td>Amount in litres:<input type="numbers" name="amt4"></td>
+</tr>
+<tr>
+<td>Blood Group:</td>
+<td width="50px"><input type="checkbox" name="ab"/>AB</td>
+<td width="50px"><input type="checkbox" name="abpos"/>+ve</td>
+<td>Amount in litres:<input type="numbers" name="amt5"></td>
+<td width="50px"><input type="checkbox" name="abneg"/>-ve</td>
+<td>Amount in litres:<input type="numbers" name="amt6"></td>
+</tr>
+<tr>
+<td>Blood Group:</td>
+<td width="50px"><input type="checkbox" name="o"/>O</td>
+<td width="50px"><input type="checkbox" name="opos"/>+ve</td>
+<td> Amount in litres:<input type="numbers" name="amt7"></td>
+<td width="50px"><input type="checkbox" name="oneg"/>-ve</td>
+<td>Amount in litres:<input type="numbers" name="amt8"></td>
+</tr>
+<tr>
+<td><input type="submit" value="Insert" name="submit"/></td>
+</form>
+</table>
+</div>
+</div>
+ 
+
+</body>
+</html>
