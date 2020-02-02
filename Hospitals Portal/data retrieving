@@ -1,0 +1,90 @@
+<html>
+
+<head>
+<title>show data</title>
+<style text="type/css" />
+#h1
+{
+	color:Red;
+	text-shadow: 5px 5px 2px pink;
+}
+	</style>
+</head>
+
+<img src="images53LUPUR5.jpg" border="1px" alt="image not found" border="2px" align="left" width="150px" height="170px"/>
+<img src="imagesXXK5X884.jpg" border="1px" alt="image not found" border="2px" align="right" width="500px" height="400px" margin="0px"/>
+
+<h1  id ="h1" align="center">The Data of The Hospitals </h1>
+
+<h3 align="center">Select the appropriate hospital for the situation</h3> 
+
+
+</html>
+<?php 
+
+      
+	  $con = mysqli_connect('localhost:3308','root','','insertdb');
+	  
+	  
+	  
+	 function showData()
+	 {
+		 global $con;
+		 
+		 
+		 
+		 $query = "SELECT * FROM `data`";
+		 
+		 $run = mysqli_query($con,$query);
+		 
+		 
+		 
+		 if($run == TRUE)
+		 {
+			 ?>
+			 <br/><br/><br/><br/><br/>
+			 <table  border ="2px" cellspacing="0px" align="center" width="600px">
+			 <tr>
+			    <th>Registration number</th>
+				<th>Hospital Name </th>
+				<th>Vacant Beds</th>
+				<th>Doctors Available</th>
+			 <?php
+			 while( $data = mysqli_fetch_assoc($run))
+			 {
+			?>
+			<tr>
+			    <td><?php echo $data['reg'];?></td>
+				<td><?php echo $data['name'];?></td>
+				<td><?php echo $data['bed'];?></td>
+				<td><?php echo $data['doc'];?></td>
+				
+			<?php
+			 }
+		 }
+		 else
+		 {
+			 echo "Error!";
+		 }
+		 ?>
+		 </table>
+		 <?php
+	 }
+
+?>
+  
+ 
+<html>
+ 
+ <head>
+ 
+ </head>
+ 
+ <body>
+ <?php showData(); ?>
+ 
+</body>
+ 
+</html>
+ 
+ 
