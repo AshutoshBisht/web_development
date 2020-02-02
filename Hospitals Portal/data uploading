@@ -1,0 +1,31 @@
+<?php
+
+
+$reg =$_POST['Registration_id'];
+$pas=$_POST['password'];
+echo "<br>";
+$name = $_POST['name'];
+echo "<br>";
+$bed = $_POST['beds'];
+echo "<br>";
+
+$doc = $_POST['doctors'];
+
+
+
+$con = mysqli_connect('localhost:3308','root','','insertdb');
+
+$query = "INSERT INTO `data`(`reg`, `pas`, `name`, `bed`, `doc`) VALUES ('$reg','$pas','$name','$bed','$doc')";
+
+$run = mysqli_query($con,$query);
+
+    if($run == TRUE)
+	      echo "Data insert Successfully <a href='formcopy.html'><h3>Click here to update</h3></a> <br><br><br><a href='viewdata.php'><h3>click here to view data of all hospitals</h3></a>";
+	  else
+		echo "Error";
+
+
+
+
+
+?>
