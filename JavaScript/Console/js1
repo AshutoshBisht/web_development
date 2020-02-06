@@ -1,0 +1,18 @@
+let x=10;
+let y=x*x;
+let z=y*5;
+console.log(x*x);
+console.log(y,z);
+let one=1,two=2;
+console.log(one+two);
+let thenumber=Number("hello");
+console.log(thenumber);
+thenumber=Number(34);
+console.log(thenumber);
+if(1+1== 2)
+{
+    console.log("It's True");
+}
+else{
+    console.log("It's false");
+}
