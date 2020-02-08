@@ -1,0 +1,14 @@
+function largest(a, b) {
+	if(a > b)
+		console.log(b);
+	else if(a === b)
+		console.log("both are equal");
+	else
+		console.log(a);
+}
+let x=11;
+let y=12;
+largest(x,y);
+let a=11;
+let b=11;
+largest(11,11);
