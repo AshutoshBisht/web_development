@@ -1,0 +1,15 @@
+const makeNoise=function()
+{
+    console.log("Ping!");
+}
+makeNoise();
+const pow = function(base,power)
+{
+    let result=1;
+    for(i=1;i<=power;i++)
+    {
+        result *=base;
+    }
+    console.log(result);
+}
+pow(5,2);
