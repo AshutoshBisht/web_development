@@ -1,0 +1,17 @@
+// countBs():  to count number of upper case B;
+
+function countBs(str,l,check)
+{let count=0;
+for(i=0;i<l;i++)
+{
+    if(str[i]==check)
+    count++
+}
+return count;
+}
+let str="Bowling Batting bca BBa";
+//console.log(str[0]);
+l=str.length;
+let check='i'
+let x = countBs(str,l,check);
+console.log("The number of Bs are :",x);
