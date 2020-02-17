@@ -1,0 +1,28 @@
+//to check whether a number is odd or even using recursion
+
+
+
+function isEven(n)
+{
+    if(n==0)
+    return 0;
+    else if(n==1)
+   return 1;
+    let x =isEven(n-2);
+    return x;
+}
+let n=-9;
+if(n<0)
+{
+    n=n*(-1);
+    console.log(n);
+}
+if(isEven(n)==0)
+{
+    console.log("Even");
+}
+else if(isEven(n)==1)
+{
+    console.log("odd");
+}
+
