@@ -1,0 +1,22 @@
+ //some properties related to array
+let numbers =[4,5,6];
+let num=[5,8,9];
+
+console.log(numbers[2]);
+console.log(num);
+let doh = "doh";
+
+console.log(typeof doh.toUpperCase);
+console.log( doh.toUpperCase());
+
+let array =[1,2,3];
+console.log(array);
+
+array.push(5,6);
+console.log(array);
+
+let x=array.pop();
+
+console.log(array);
+console.log(x);
+console.log(numbers.includes(8));
