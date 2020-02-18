@@ -1,0 +1,25 @@
+//object
+
+let obj1 = {
+    month :["jan","feb","mar","apr",",may","jun"],
+    days:["mon","tue","wed","thu","fri","sat","sun"]
+};
+console.log(obj1.month);
+console.log(obj1.month[0]);
+console.log("month" in obj1);
+console.log("days" in obj1);
+console.log("year" in obj1);
+
+console.log(Object.keys(obj1));
+
+let objectA={
+    a:1,b:2,x:111
+}
+let objectB=
+{
+    a:2,b:4,c:5,y:100
+}
+
+Object.assign(objectA,objectB);
+console.log(objectA);
+console.log(objectB);
