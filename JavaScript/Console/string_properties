@@ -1,0 +1,28 @@
+/ some more functions related to arrays and strings
+
+let numbers =[11,12,0,13,14,15,16,17,18,0,19,20];
+let alpha=['A','B','C'];
+let num=[1,2,3];
+console.log(numbers.indexOf(13));
+console.log(numbers.lastIndexOf(0));
+console.log(numbers.slice(0,2));
+console.log(numbers.slice(8));
+console.log(alpha.concat(num));
+//console.log(alpha.concat(alpha,num,numbers));  // it joins all the arrays 
+
+console.log("Badboy".slice(0,3));
+console.log("Badboy".indexOf("b"));
+console.log("Badboy".indexOf("db"));
+let x="  Sacred Heart School gholtir";
+console.log(x);
+let p = x.trim();// it only trims from start and end of  a string
+console.log(p);
+let z=(p.split(" "))
+console.log(z);
+console.log(z.join("123  "));
+console.log(z.join(" "));
+
+let str = "PubG\n";
+console.log(str.repeat(5));
+console.log(str[3]);
+console.log(x[4]);
