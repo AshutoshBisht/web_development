@@ -1,0 +1,35 @@
+//some more properties of objects
+
+let library = [
+    {
+        Books:["Mathematics","Electronics","Electrical","English"],
+        Magazines:["Digit","Outlook","Forbes"]
+    },
+    {
+        Books:["Mathematics","Electronics","Electrical","English"],
+        Magazines:["Digit","Outlook","Forbes"]
+    },
+  {
+    Books:["Mathematics","Electronics","Electrical","English"],
+    Magazines:["Digit","Outlook","Forbes"]
+  }
+
+];
+//console.log(library);
+console.log(library[1]);
+console.log(library[1].Books);
+console.log(library[1].Books[1]);
+console.log();
+let obj1={
+  value:10
+};
+let obj2=obj1;
+let obj3={
+  value:10
+};
+console.log(obj1==obj2);
+console.log(obj2);
+console.log(obj1==obj3);
+
+obj1.value=15;
+console.log(obj2.value);
