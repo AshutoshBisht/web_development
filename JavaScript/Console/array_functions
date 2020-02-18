@@ -1,0 +1,25 @@
+// some predefined functions for arrays
+
+let todolist=[];
+ 
+function addentery(task)
+{
+    todolist.push(task);
+}
+function done(work)
+{
+    todolist.shift(work)
+}
+function urgent(task)
+{
+    todolist.unshift(task);
+}
+addentery("buy food");
+addentery("pay bills");
+addentery("complete assign.");
+console.log(todolist);
+console.log();
+done("pay bills");
+console.log(todolist);
+urgent("Buy bandages");
+console.log(todolist);
